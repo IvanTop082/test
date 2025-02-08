@@ -1,0 +1,5 @@
+import "hash"
+rule Rule2 {
+	condition:
+		hash.md5(0, filesize) == "fe48494f2b5a9c452f12e9bbe93a6be6"
+}

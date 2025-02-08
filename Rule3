@@ -1,0 +1,7 @@
+rule Rule1 {
+	strings:
+		$a = "This program cannot be run in DOS mode"
+	condition:
+		$a
+	
+}

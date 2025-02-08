@@ -1,0 +1,9 @@
+rule Rule1 {
+	strings:
+		$a = "MZ"
+	condition:
+		$a
+		
+
+
+}
